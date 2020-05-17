@@ -9,12 +9,12 @@ Date: 17/5/2020
 """
 Steps :
 1. Take random word from word_list (create method)
-3. Create lists for guessed words, letters, correct guesses
-2. Take user input for letter or word
+2. Create lists for guessed words, letters, correct guesses
+3. Take user input for letter or word
 4. Main loop: check the word or letter in the random word
 5. If guess is correct append it to correct guesses or else guessed list
 6. print out remaining tries(the correspomding state)
-7. Main mehtod for continuous loop
+
 """
 
 # Taking random number from the wordlist
@@ -26,7 +26,7 @@ def play_hangman(secret_word):
     completed_word = "_" *len(secret_word)
     guessed = False
     guessed_letters = []
-    guesses_words = []
+    guessed_words = []
     tries = 6
     print("Let's start, Hangman!!!")
     print(display_hangman(tries))
@@ -100,7 +100,7 @@ def play_hangman(secret_word):
     if guessed:
         print("Great work, you guessed correct word!, you win!!!")
     else:
-        print(f"Sorry your tries were exceeded, the word was{secret_word}. Better luck next time!")
+        print(f"Sorry your tries were exceeded, the word was {secret_word}. Better luck next time!")
     
 
 
