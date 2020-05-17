@@ -1,6 +1,6 @@
 # Hangman
 This is basic command line based game 
-While creating this game i've learned these concepts in python such as:
+While creating this game i've learned these concepts in python:
 - Conditionals
 - String manipulation
 - Loops 
